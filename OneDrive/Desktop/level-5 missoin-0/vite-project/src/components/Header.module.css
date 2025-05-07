@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.header {
+  position: fixed;
+  width: 100vw;
+  height: 130px;
+  top: 0;
+  left: 0;
+  background-color: rgba(89, 153, 232, 0.426);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.logoSection {
+  display: flex;
+}
+
+.logoImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px 16px;
+}
+
+.navBarSection {
+  display: flex;
+}
+
+.logo {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navItem {
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navItem:hover {
+  color: rgb(250, 248, 248);
+  background: #4a4a4a;
+}
+
+.loginBtn {
+  margin: 0 46px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  color: #4a4a4a;
+  background-color: white;
+  transition: background-color 0.2s;
+}
+
+.loginBtn:hover {
+  background-color: #8b8a8a;
+  color: white;
+}
+
+.hamburgerBtn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.sidebar {
+  display: flex;
+}
+
+.closeSidebarBtn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .hamburgerBtn {
+    margin-right: 35px;
+    display: block;
+    transition: 0.3s ease-in-out;
+    color: #8b8a8a;
+  }
+
+  .sidebar {
+    display: flex;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+    padding: 16px;
+  }
+  .sidebarOpen {
+    right: 0;
+    right: 0;
+    width: 30%;
+    padding: 1rem 3rem;
+    background: #cbc9c9f1;
+    border-bottom-left-radius: 2rem;
+    backdrop-filter: blur(10px);
+    border-left: 2px solid rgb(42, 36, 36);
+    border-bottom: 2px solid rgb(42, 36, 36);
+    z-index: 1000;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .navItem:hover {
+    color: rgb(249, 250, 252);
+  }
+
+  .loginBtn {
+    margin: 10px 0;
+  }
+  .closeSidebarBtn {
+    display: block;
+  }
+}
