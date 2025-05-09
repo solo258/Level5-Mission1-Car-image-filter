@@ -1,9 +1,9 @@
 import styles from "./Body.module.css";
-import scrypt from "./scrypt.js";
-import { useState } from "react";
+// import scrypt from "./scrypt.js";
+// import { useState } from "react";
 
 export default function Body() {
-  const [cardsData, setCardsData] = useState(scrypt);
+  // const [cardsData, setCardsData] = useState(scrypt);
 
   return (
     <main className={styles.body}>
@@ -27,7 +27,7 @@ export default function Body() {
         </section>
       </div>
 
-      <section className={styles.cards}>
+      {/* <section className={styles.cards}>
         {cardsData.map((card) => (
           <div>
             <div key={card.id} className={styles.image}>
@@ -39,7 +39,7 @@ export default function Body() {
             </div>
           </div>
         ))}
-      </section>
+      </section> */}
     </main>
   );
 }

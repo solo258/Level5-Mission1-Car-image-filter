@@ -1,15 +1,13 @@
 .body {
-  top: 130px;
+  top: 12vh;
   position: absolute;
   width: 100vw;
   background-color: #e2e8f0;
   text-align: center;
   scroll-behavior: smooth;
-  overflow-y: auto;
 }
 
 .hero {
-  display: block;
   background-color: #e2e8f0;
   height: 50vh;
 }
@@ -25,13 +23,13 @@
   align-items: center;
   justify-content: center;
   width: 40vw;
-  height: 50vh;
+  height: 40vh;
 }
 
 .logoImage {
   display: flex;
   align-items: center;
-  height: 50vh;
+  height: 40vh;
 }
 .logoImage img {
   width: 20vw;
@@ -67,43 +65,6 @@
   background-color: #333;
 }
 
-.cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 16px;
-  width: 100vw;
-  margin-top: 60px;
-  background-color: white;
-}
-
-.image {
-  background-color: #c0c8d2;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  width: 25vw;
-  height: 250px;
-  margin-top: 30px;
-}
-
-.cardContent {
-  background-color: #e2e8f0;
-}
-
-.cardTitle {
-  font-size: 1.125rem;
-  font-weight: bold;
-  text-align: left;
-  margin-left: 10px;
-}
-
-.cardDescription {
-  color: #45484d;
-  text-align: left;
-  margin-left: 10px;
-}
-
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -119,16 +80,11 @@
 
 @media screen and (min-width: 350px) and (max-width: 768px) {
   .hero {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .heroSection {
-    flex-direction: column;
-    width: 100vw;
-    height: 40vh;
-  }
+
   .heroTitle {
     display: flex;
     justify-content: end;
@@ -149,22 +105,5 @@
   }
   .logoImage {
     display: none;
-  }
-  .cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    margin-top: 30px;
-    padding: 0;
-  }
-  .image {
-    width: 67vw;
-    height: 25vh;
-    /* display: none; */
-    padding: 0;
-  }
-  .cardContent {
-    width: 67vw;
   }
 }
