@@ -13,7 +13,7 @@ export default function Header() {
       <section className={styles.logoSection}>
         <div>
           <img
-            src="https://helpx.adobe.com/content/dam/help/en/lightroom/how-to/organize-edit-share-photos-online_297x176.jpg"
+            src="./images/img 5.png"
             alt="Logo"
             className={styles.logoImage}
           />

@@ -13,10 +13,7 @@ export default function Body() {
             Marketing Association New Zealand
           </h1>
           <div className={styles.logoImage}>
-            <img
-              src="https://cdn.thewirecutter.com/wp-content/media/2024/11/BEST-ALL-IN-ONE-COMPUTER-2048px-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp"
-              alt="Logo"
-            />
+            <img src="./images/img 4.png" alt="Logo" />
           </div>
         </section>
 

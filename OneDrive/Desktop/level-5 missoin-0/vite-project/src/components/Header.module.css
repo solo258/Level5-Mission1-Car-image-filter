@@ -53,6 +53,7 @@
   color: black;
   text-decoration: none;
   transition: color 0.2s;
+  padding: 0 13px;
 }
 
 .navItem:hover {

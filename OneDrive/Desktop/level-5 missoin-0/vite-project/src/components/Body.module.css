@@ -108,7 +108,7 @@
   width: 20px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(89, 153, 232);
+  background-color: rgb(168, 200, 240);
   border-radius: 25px;
   min-height: 250px;
 }
@@ -162,6 +162,7 @@
     width: 67vw;
     height: 25vh;
     /* display: none; */
+    padding: 0;
   }
   .cardContent {
     width: 67vw;
