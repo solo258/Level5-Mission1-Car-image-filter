@@ -82,6 +82,12 @@
   font-size: 24px;
   cursor: pointer;
 }
+button:focus,
+button:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
 
 .sidebar {
   display: flex;
@@ -91,7 +97,7 @@
   display: none;
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -104,9 +110,15 @@
     margin-right: 35px;
     display: block;
     transition: 0.3s ease-in-out;
-    color: #8b8a8a;
+    color: #dfdada;
+    background: #cbc9c9cb;
   }
-
+  .hamburgerBtn:hover {
+    color: black;
+  }
+  .icon {
+    border: none;
+  }
   .sidebar {
     display: flex;
   }
@@ -127,7 +139,7 @@
     right: 0;
     width: 30%;
     padding: 1rem 3rem;
-    background: #cbc9c9f1;
+    background: #cbc9c9cb;
     border-bottom-left-radius: 2rem;
     backdrop-filter: blur(10px);
     border-left: 2px solid rgb(42, 36, 36);
@@ -148,6 +160,11 @@
     margin: 10px 0;
   }
   .closeSidebarBtn {
-    display: block;
+    display: flex;
+    justify-content: baseline;
+    color: black;
+  }
+  .closeSidebarBtn:hover {
+    color: white;
   }
 }

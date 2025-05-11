@@ -8,8 +8,8 @@ export default function Card() {
   return (
     <section className={styles.cards}>
       {cardsData.map((card) => (
-        <div>
-          <div key={card.id} className={styles.image}>
+        <div className={styles.card} key={card.id}>
+          <div className={styles.image}>
             {<img src={card.image} alt={card.title} />}
           </div>
           <div className={styles.cardContent}>
