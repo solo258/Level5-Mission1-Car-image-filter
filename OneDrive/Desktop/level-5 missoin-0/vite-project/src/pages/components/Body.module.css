@@ -1,6 +1,7 @@
 .body {
-  top: 12vh;
-  position: absolute;
+  top: 12vh; /*comment out when add more components*/
+  position: absolute; /*comment out when add more components*/
+  /* margin-top: 12vh; // open when add more components*/
   width: 100vw;
   height: 50vh;
   background-color: #e2e8f0;
