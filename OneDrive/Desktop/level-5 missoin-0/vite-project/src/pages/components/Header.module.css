@@ -129,7 +129,7 @@ button:active {
     top: 0;
     right: -100%;
     width: 75vw;
-    max-width: 220px;
+    max-width: 200px;
     background: #eaf1fb;
     box-shadow: -2px 0 12px rgba(89, 153, 232, 0.15);
     transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
