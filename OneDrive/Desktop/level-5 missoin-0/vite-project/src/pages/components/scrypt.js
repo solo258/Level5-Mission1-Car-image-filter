@@ -4,8 +4,7 @@ const cardsData = [
     title: "Code Materials",
     description: "Return Error",
     // image: "./public/images/img 1.png",
-    image:
-      "https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.png?height=640&width=640&fit=bounds",
+    image: "https://media2.giphy.com/media/mTPjPA6SSXgTsnZ1Dh/giphy.gif",
   },
   {
     id: 2,
@@ -13,7 +12,7 @@ const cardsData = [
     description: "Development Tools",
     // image: "./public/images/img 2.png",
     image:
-      "https://static.wixstatic.com/media/20d70e_64908e330b054a5f8af133e983836f66~mv2.png/v1/fill/w_568,h_190,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20d70e_64908e330b054a5f8af133e983836f66~mv2.png",
+      "https://media2.giphy.com/media/dZX3AduGrY3uJ7qCsx/giphy.gif?cid=6c09b952msv49p049c8q9extkanhnv7t8d8zp94wv3jsyaat&ep=v1_gifs_search&rid=giphy.gif&ct=g",
   },
   {
     id: 3,
@@ -21,7 +20,7 @@ const cardsData = [
     description: "Back-End dev",
     // image: "./public/images/img 3.png",
     image:
-      "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F23accea7-f503-4660-aa27-de7056a5e882.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+      "https://www.pramukhdigital.com/wp-content/uploads/2018/07/New-PNC-Animated-Banners.gif",
   },
 ];
 
