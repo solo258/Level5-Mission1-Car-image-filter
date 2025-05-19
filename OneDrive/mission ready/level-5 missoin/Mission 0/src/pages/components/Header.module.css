@@ -25,8 +25,8 @@
 }
 
 .logoImage {
-  width: 8vw;
-  height: 8vh;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin: 10px 16px;
 }
@@ -106,6 +106,10 @@ button:active {
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .nav {
     display: none;
+  }
+  .logoImage {
+    width: 8vw;
+    height: 8vh;
   }
   .hamburgerBtn {
     display: block;
