@@ -78,6 +78,7 @@ const Form = () => {
     }
     return [];
   };
+
   const Carousel = ({ images }) => {
     const [index, setIndex] = useState(0);
     if (!images || images.length === 0) return null;
@@ -143,6 +144,7 @@ const Form = () => {
                 />
                 <button
                   type="button"
+                  style={{ padding: "5px" }}
                   className={styles.resetButton}
                   onClick={() => {
                     resetForm();
@@ -219,14 +221,13 @@ const Form = () => {
             </button>
             <button
               type="button"
-              className="reset-button"
+              style={{ padding: "5px" }}
               onClick={() => {
                 resetForm();
                 // Also clear the URL input
                 const urlInput = document.getElementById("image-url");
                 if (urlInput) urlInput.value = "";
               }}
-              style={{ marginLeft: "10px" }}
             >
               Reset
             </button>
@@ -238,3 +239,4 @@ const Form = () => {
 };
 
 export default Form;
+
