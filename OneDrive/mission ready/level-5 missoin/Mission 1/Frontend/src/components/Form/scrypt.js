@@ -11,7 +11,7 @@ export const SUV = [
   { id: 10, image: "./SUV/images.jpg" },
 ];
 
-export const truck = [
+export const Truck = [
   { id: 1, image: "./truck/download (2).jpg" },
   { id: 1, image: "./truck/download (2).jpg" },
   { id: 2, image: "./truck/download (3).jpg" },
@@ -24,7 +24,7 @@ export const truck = [
   { id: 9, image: "./truck/images.jpg" },
 ];
 
-export const sedan = [
+export const Suden = [
   { id: 1, image: "./suden/2013-mazda-atenza-26492838_20794455.jpg" },
   { id: 2, image: "./suden/2013-mazda-atenza-26492838_20794458.jpg" },
   { id: 3, image: "./suden/2020-peugeot-508-26633390_21264876.jpg" },
